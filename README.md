@@ -57,7 +57,7 @@ python translator.py
 可以使用PyInstaller打包为独立的exe文件：
 
 ```bash
-pip install pyinstaller
+pip3 install pyinstaller
 pyinstaller --onefile --windowed --icon=ico.ico translator.py
 ```
 
